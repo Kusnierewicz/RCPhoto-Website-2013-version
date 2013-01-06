@@ -1,0 +1,21 @@
+/* keep the large image hidden */
+
+
+
+.gallery ul li a em {
+display:none;
+}
+
+.gallery ul li a:active em, .gallery ul li a:focus em {
+	display:block; 
+	background:#ddd; 
+	position:absolute; 
+	left:0px; 
+	top:0px;
+	width:1000px; 
+	height:670px;  
+	z-index:200; 
+	z-index:500;
+	cursor: default; 
+	border:1px solid #fff;
+}

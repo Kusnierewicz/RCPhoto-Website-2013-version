@@ -1,0 +1,119 @@
+
+.slider:hover ul, .slider:hover #progress, .slider:hover #overlay {
+	-moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+}
+
+#mask {
+	overflow:hidden;
+}
+
+.slider ul {
+	width:4900px;
+	position:relative;
+	left:0px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	-moz-animation:slide-animation 18s infinite;
+	-webkit-animation:slide-animation 18s infinite;
+}
+
+.slider li {
+	width:980px;
+	height:540px;
+	position:relative;
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+	background-image:url(../images/loader.gif);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+}
+
+}
+@-webkit-keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-980px; opacity:1;}
+	45% {left:-980px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1960px; opacity:1;}
+	70% {left:-1960px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-2940px; opacity:1;}
+	95% {opacity:1;}
+	98% {left:-2940px; opacity:0;}
+	100% {left:0px; opacity:0;}
+}
+@-moz-keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-980px; opacity:1;}
+	45% {left:-980px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1960px; opacity:1;}
+	70% {left:-1960px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-2940px; opacity:1;}
+	95% {opacity:1;}
+	98% {left:-2940px; opacity:0;}
+	100% {left:0px; opacity:0;}
+}
+@-webkit-keyframes progress {
+	0% {width:0px; opacity:0;}
+	2% {width:0px; opacity:1;}
+	20% {width:980px; opacity:1;}
+	22.5% {width:980px; opacity:0;}
+	22.59% {width:0px;}
+	25% {width:0px; opacity:1;}
+	45% {width:980px; opacity:1;}
+	47.5% {width:980px; opacity:0;}
+	47.59% {width:0px;}
+	50% {width:0px; opacity:1;}
+	70% {width:980px; opacity:1;}
+	72.5% {width:980px; opacity:0;}
+	72.59% {width:0px;}
+	75% {width:0px; opacity:1;}
+	95% {width:980px; opacity:1;}
+	98% {width:980px; opacity:0;}
+	100% {width:0px; opacity:0;}
+}
+@-moz-keyframes progress {
+	0% {width:0px; opacity:0;}
+	2% {width:0px; opacity:1;}
+	20% {width:980px; opacity:1;}
+	22.5% {width:980px; opacity:0;}
+	22.59% {width:0px;}
+	25% {width:0px; opacity:1;}
+	45% {width:980px; opacity:1;}
+	47.5% {width:980px; opacity:0;}
+	47.59% {width:0px;}
+	50% {width:0px; opacity:1;}
+	70% {width:980px; opacity:1;}
+	72.5% {width:980px; opacity:0;}
+	72.59% {width:0px;}
+	75% {width:0px; opacity:1;}
+	95% {width:980px; opacity:1;}
+	98% {width:980px; opacity:0;}
+	100% {width:0px; opacity:0;}
+}
+@-webkit-keyframes overlay-fade {
+	0% {opacity:0;}
+	2% {opacity:0.5;}
+	95% {opacity:0.5;}
+	98% {opacity:0;}
+	100% {opacity:0;}
+}
+@-moz-keyframes overlay-fade {
+	0% {opacity:0;}
+	2% {opacity:0.5;}
+	95% {opacity:0.5;}
+	98% {opacity:0;}
+	100% {opacity:0;}
+}
