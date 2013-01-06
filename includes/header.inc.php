@@ -3,13 +3,13 @@
 <header>
 	
 	<section >
-		<a href="index_main.php" class="logo"><h1>RC Photo <p>fotografia ślubna</p></h1></a>
+		<a href="index.php" class="logo"><h1>RC Photo <p>fotografia ślubna</p></h1></a>
 	</section>
 	
 	<nav>
 		<ul>
 			<li>
-				<a href="index_main.php" <?php if ($currentPage == 'index_main.php') { echo 'id="active"';} ?>>
+				<a href="index.php" <?php if ($currentPage == 'index_main.php') { echo 'id="active"';} ?>>
 					Main
 				</a>
 			</li>
