@@ -1,13 +1,13 @@
 <?php
 function dbConnect($usertype, $connectionType = 'mysqli') {
 	$host = 'localhost';
-	$db = 'phpsols03';
+	$db = 'kusnier_phpsols03';
 	if ($usertype == 'read') {
-		$user = 'psread';
-		$pwd = 'pass1';
+		$user = 'kusnier_psread';
+		$pwd = 'dPsGyedA5bFW9UBO3Ldg';
 	} elseif ($usertype == 'write') {
-		$user = 'pswrite';
-		$pwd = 'pass2';
+		$user = 'kusnier_pswrite';
+		$pwd = 'TVI6NVxcxOe6UC1urr0l';
 	} else {
 		exit('Unrecognized connection type');
 	}
