@@ -1,6 +1,6 @@
 <?php
 function dbConnect($usertype, $connectionType = 'mysqli') {
-	$host = 'kusnier';
+	$host = 'localhost';
 	$db = 'kusnier_phpsols03';
 	if ($usertype == 'read') {
 		$user = 'kusnier_psread';
